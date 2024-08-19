@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="information">
+            <div class="playerInfo allign">
+                <h3 id="allignHull">Allign Hull:</h3>
+                <h3 id="allignFirepower">Firepower:</h3>
+            </div>
+            <div class="playerTurn">
+                <h3 id="playerTurn">Your Turn</h3>
+            </div>
+            <div class="playerInfo player">
+                <h3 id="playerHull">Player Hull: 20</h3>
+                <h3 id="playerFirepower">Firepower: 5</h3>
+            </div>
+        </nav>
+        <main>
+            <div class="gameFunctions">
+                <button onclick="startGame()">Start Game</button>
+                <button disabled id="retreatID"> Retreat</button>
+                <button onclick="attackTarget()" disabled id="attackID"> attack</button>
+            </div>
+            <section class="gameBoard">
+                <div class="otherAlliens">
+                    <div class="1">                    
+                        <img src="https://64.media.tumblr.com/956241c12919ecbc1db62a909377b4a6/tumblr_mx0g3zrIoF1rs09tlo1_500.gif" class="target" alt="">
+                    </div>
+                    <div class="2">                
+                        <img src="https://64.media.tumblr.com/956241c12919ecbc1db62a909377b4a6/tumblr_mx0g3zrIoF1rs09tlo1_500.gif" alt="">
+                    </div>
+    
+                    <div class="3">                    
+                        <img src="https://64.media.tumblr.com/956241c12919ecbc1db62a909377b4a6/tumblr_mx0g3zrIoF1rs09tlo1_500.gif" alt="">
+                    </div>
+    
+                    <div class="4">                    
+                        <img src="https://64.media.tumblr.com/956241c12919ecbc1db62a909377b4a6/tumblr_mx0g3zrIoF1rs09tlo1_500.gif" alt="">
+                    </div>
+    
+                    <div class="5">                    
+                        <img src="https://64.media.tumblr.com/956241c12919ecbc1db62a909377b4a6/tumblr_mx0g3zrIoF1rs09tlo1_500.gif" alt="">
+                    </div>
+                    <div class="6">
+                        <img src="https://64.media.tumblr.com/956241c12919ecbc1db62a909377b4a6/tumblr_mx0g3zrIoF1rs09tlo1_500.gif" alt="">
+                    </div>
+                </div>
+               
+                
+                <div class="playerImageDiv">
+                    <img src="https://cdn.pixabay.com/animation/2022/07/31/06/27/06-27-17-124_512.gif" alt="">
+                </div>
+            </section>
+            <div class="results">
+                
+            </div>
+        </main>
+        
+        <script src="app.js" async defer></script>
+    </body>
+</html>
